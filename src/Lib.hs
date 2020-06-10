@@ -14,4 +14,10 @@ showDigits :: [Int] -> String
 showDigits =
   reverse . map (chr . (+ 48))
 
+applyLucasLemma :: [Int] -> [Int] -> Int
+apply LucasLemma m n = 
+    | n <= 0 = 0
+    | m <= 0 = 0
+    = foldl mod 2 [m choose n]
+
 
