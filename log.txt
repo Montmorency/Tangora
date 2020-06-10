@@ -1,0 +1,17 @@
+First stage is choosing the right functions
+for calculating the mod p binomial coefficients that arise.
+
+
+
+http://hackage.haskell.org/package/exact-combinatorics-0.2.0.9/docs/Math-Combinatorics-Exact-Binomial.html
+
+Wed 10 Jun 2020 10:27:21 IST
+
+Nice post on computing binomial coefficients module prime
+https://fishi.devtail.io/weblog/2015/06/25/computing-large-binomial-coefficients-modulo-prime-non-prime/
+
+This is nice too
+https://crypto.stanford.edu/~blynn/pr/choose.html
+
+We may want to look at accelerate package for vector operations:
+https://hackage.haskell.org/package/accelerate
